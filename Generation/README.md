@@ -1,1 +1,1 @@
-Please write README for this directory
+Generate data
