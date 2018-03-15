@@ -16,11 +16,10 @@ RUN bash ./mkdir.sh
 # !! Please only modify the contents between the two seperation line
 
 # Add all the code you use to docker image
-ADD main.py $HOME/main.py
+ADD main.C $HOME/main.C
 
-ENTRYPOINT ["python", "main.py"]
+ENTRYPOINT ["root", "-b", "-q", "test.C"]
 # other examples:
-# ENTRYPOINT ["root", "-b", "-q", "test2.C"]
 # ENTRYPOINT ["python", "-b", "-q", "test2.C"]
 
 # ===================================================================
